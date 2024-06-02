@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#33CA3C1E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Belanja">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Daftar Belanja"
+        android:gravity="center"
+        android:background="@drawable/layout"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginHorizontal="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnWanita"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/wanita"
+                    android:src="@drawable/rounded" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Wanita"
+                    android:textColor="#ffff"
+                    android:background="@drawable/text_fashion"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnPria"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/pria"
+                    android:src="@drawable/rounded" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Pria"
+                    android:textColor="#ffff"
+                    android:background="@drawable/text_fashion"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Kembali"
+        android:textSize="15dp"
+        android:background="@drawable/button_menu"
+        android:id="@+id/btnKembali"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="651dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <!--FASHION WANITA-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="Fashion Wanita"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/layout2"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/txtFashionWanita"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+                <ImageView
+                    android:layout_width="149dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/f_wanita1"
+                    android:src="@drawable/rounded"/>
+
+                <LinearLayout
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/txtFW1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Hoodie Wanita"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="194dp"
+                        android:layout_height="wrap_content"
+                        android:text="Hadirkan Gaya yang Keren dan Kebahagiaan yang Hangat dengan Hoodie Kualitas Premium!"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Rp. "
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHargaFW1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="105000"
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnBeliFW1"
+                        android:layout_width="126dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/button_beli"
+                        android:text="Beli"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+                <ImageView
+                    android:layout_width="149dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/f_wanita2"
+                    android:src="@drawable/rounded"/>
+
+                <LinearLayout
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Celana Jeans"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:id="@+id/txtFW2"/>
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tampil Percaya Diri dengan Celana Jeans Klasik yang Tak Terbantahkan!"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. "
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="75000"
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:id="@+id/txtHargaFW2"/>
+                    </LinearLayout>
+                    <Button
+                        android:layout_width="126dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/button_beli"
+                        android:text="Beli"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:id="@+id/btnBeliFW2"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--FASHION PRIA-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@drawable/layout2"
+                android:gravity="center"
+                android:text="Fashion Pria"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/txtFashionPria"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+                <ImageView
+                    android:layout_width="149dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/f_pria1"
+                    android:src="@drawable/rounded"/>
+
+                <LinearLayout
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Hoodie Pria"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:id="@+id/txtFP1"/>
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Hadirkan Gaya Kasual yang Menawan dengan Hoodie Pria Berkualitas!"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. "
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150000"
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:id="@+id/txtHargaFP1"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="126dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/button_beli"
+                        android:text="Beli"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:id="@+id/btnBeliFP1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+                <ImageView
+                    android:layout_width="149dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/f_pria2"
+                    android:src="@drawable/rounded"/>
+
+                <LinearLayout
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Celana Kargo"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:id="@+id/txtFP2"/>
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tampil Trendy dengan Celana Pria Berkualitas Tinggi!"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. "
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="80000"
+                            android:textColor="#2AD50C"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:id="@+id/txtHargaFP2"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="126dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/button_beli"
+                        android:text="Beli"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:id="@+id/btnBeliFP2"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#33CA3C1E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checkout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Pembayaran Berhasil"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:text="Selamat Pembayaran Anda Sebesar"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/txtTotalHarga"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:text="Berhasil Dilakukan!"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesanan anda akan segera kami dikirim."
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="30dp"
+        android:text="Kembali"
+        android:background="@drawable/button_menu"
+        android:id="@+id/btnKembali"/>
+</LinearLayout>

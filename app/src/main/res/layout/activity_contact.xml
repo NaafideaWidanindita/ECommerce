@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#33CA3C1E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:background="@drawable/rounded_contact">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="98dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dea" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Nama : Naafi'dea Widanindita"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Nim    : 2215323016"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="No      : "
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="08123456789"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:id="@+id/txtNo1"/>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_telpon"
+                        android:src="@drawable/telpon"
+                        android:id="@+id/btnTelpon1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:background="@drawable/rounded_contact">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="98dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/devan" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Nama : I Wayan Agus Devanda Crespo"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Nim    : 2215323008"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="No      : "
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="08123456789"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:id="@+id/txtNo2"/>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_telpon"
+                        android:src="@drawable/telpon"
+                        android:id="@+id/btnTelpon2"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:background="@drawable/rounded_contact">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="98dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/utik" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Nama : Putri Nova Divana"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Nim    : 2215323012"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="No      : "
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="08123456789"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:id="@+id/txtNo3"/>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_telpon"
+                        android:src="@drawable/telpon"
+                        android:id="@+id/btnTelpon3"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

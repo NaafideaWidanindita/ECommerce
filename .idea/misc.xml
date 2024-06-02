@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/button_beli.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/button_fashion.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/button_login.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/button_menu.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/button_telpon.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/rounded.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/rounded_contact.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/telpon.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/text_border.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable-v24/text_fashion.xml" value="0.1305" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/drawable/ic_launcher_background.xml" value="0.104" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/layout/activity_belanja.xml" value="0.22" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/layout/activity_beli.xml" value="0.22" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/layout/activity_checkout.xml" value="0.22" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/layout/activity_contact.xml" value="0.22" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/NAAFI DEA/AndroidStudioProjects/MyFashion/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

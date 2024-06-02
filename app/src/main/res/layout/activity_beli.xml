@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#33CA3C1E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beli">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@drawable/layout"
+        android:gravity="center"
+        android:text="Detail Pembelian"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="651dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+
+            <!--DETAIL BELANJA-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Detail Belanja !!"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:gravity="center_vertical"
+                        android:text="Barang   :"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:gravity="center_vertical"
+                        android:hint="Nama Barang"
+                        android:editable="false"
+                        android:textSize="12dp"
+                        android:id="@+id/txtBarang"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:gravity="center_vertical"
+                        android:text="Harga    :"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:gravity="center_vertical"
+                        android:hint="Harga Barang"
+                        android:textSize="12dp"
+                        android:editable="false"
+                        android:id="@+id/txtHargaBarang"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded"
+                        android:paddingHorizontal="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="37dp"
+                            android:gravity="center_vertical"
+                            android:text="Jumlah  :"
+                            android:textSize="15dp" />
+
+                        <EditText
+                            android:layout_width="290dp"
+                            android:layout_height="37dp"
+                            android:gravity="center_vertical"
+                            android:hint="Masukkan Jumlah Pembelian"
+                            android:inputType="number"
+                            android:textSize="12dp"
+                            android:id="@+id/txtJumlah"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/rounded"
+                        android:gravity="center"
+                        android:hint="Total Belanja"
+                        android:editable="false"
+                        android:id="@+id/txtTotal"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_beli"
+                        android:text="Hitung"
+                        android:id="@+id/btnHitungTotal"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--PEMBAYARAN-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Pembayaran !!"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/txtPembayaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10px"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cash" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Transfer" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Credit" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--Bayar-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:gravity="center_vertical"
+                        android:text="Bayar     :"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:gravity="center_vertical"
+                        android:hint="Jumlah Bayar"
+                        android:inputType="text"
+                        android:textSize="12dp"
+                        android:id="@+id/txtBayar"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/rounded"
+                        android:gravity="center"
+                        android:hint="Kembalian"
+                        android:editable="false"
+                        android:id="@+id/txtKembalian"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_beli"
+                        android:text="Hitung"
+                        android:id="@+id/btnHitungKembalian"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Checkout"
+                android:background="@drawable/button_beli"
+                android:id="@+id/btnCheckout"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/button_menu"
+                android:id="@+id/btnKembali"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
